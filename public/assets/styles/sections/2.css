@@ -1,0 +1,93 @@
+.quote-section {
+    position: relative;
+    height: 600px; /* Adjust height as needed */
+    background-image: url('/assets/images/hero2.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+    padding: 0; 
+    width: 100%; 
+    left: 50%; 
+    margin-left: -50vw; 
+}
+
+.quote-container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.quote-content {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.quote-text-box {
+    background-color: #8064A2;
+    padding: 20px;
+    max-width: 450px;
+    min-height: min-content;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.quote-text-box h2 {
+    color: #2a5885;
+    font-family: var(--font-primary);
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.quote-text-box p {
+    color: #ffffff;
+    font-family: Calibri, sans-serif;
+    line-height: 1.6;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.highlight-text {
+    color: #2a5885;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.cta-button1 {
+    display: inline-block;
+    background-color: #8064A2;
+    color: white;
+    padding: 10px 0;
+    text-decoration: none;
+    border-radius: 4px;
+    font-family: Calibri, sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button1:hover {
+    background-color: #8064A2;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .quote-section {
+        height: auto;
+        padding: 60px 0;
+    }
+    
+    .quote-content {
+        justify-content: center;
+    }
+    
+    .quote-text-box {
+        max-width: 100%;
+        margin: 0 20px;
+    }
+}

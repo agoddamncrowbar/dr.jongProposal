@@ -1,0 +1,8 @@
+:root {
+    --primary-color: #2a5885;
+    --secondary-color: #666;
+    --text-color: #333;
+    /* fonts */
+    --font-primary: 'ErasITCDemi', Arial, sans-serif;
+    --font-secondary: Arial, sans-serif;
+}

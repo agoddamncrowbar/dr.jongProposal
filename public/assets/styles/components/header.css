@@ -1,0 +1,102 @@
+.healthcare-header {
+    background-color: #fff;
+    padding: 0  30px 0;
+    border-bottom: 1px solid #e0e0e0;
+    font-family: 'Arial', sans-serif;
+    position: sticky;
+    margin-left: -10px;
+    top: 0; 
+    z-index: 1000; 
+    width: 100%;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: row;
+}
+.logo_label {
+    display: flex;
+    flex-direction: column;
+}
+.clinic-name {
+    font-family: var(--font-primary); 
+    font-size: 24px;
+    font-weight: normal; 
+    color: #2a5885;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.clinic-specialists {
+    font-family: Calibri, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #4471A8;
+    margin: 5px 0 0 0;
+    padding: 0;
+}
+
+.header-right {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.contact-row {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.contact-label {
+    font-family: Calibri, sans-serif;
+    font-weight: normal;
+    color: #4471A8;
+    margin-right: 10px;
+    align-self: start;
+}
+
+.contact-number {
+    font-family: Calibri, sans-serif;
+    font-weight: normal;
+    color: #4471A8;
+}
+/* Alternative precise logo sizing */
+.header__logo--custom {
+    height: 60px; 
+    width: auto;
+    margin-right: 10px;
+}
+
+/* For very large logos that need scaling down */
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .header-right {
+        text-align: left;
+        margin-top: 15px;
+    }
+    
+    .clinic-name {
+        font-size: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .header__logo {
+        max-height: 40px; /* Smaller logo on mobile */
+    }
+}

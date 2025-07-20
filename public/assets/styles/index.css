@@ -1,0 +1,11 @@
+@import url('base/variables.css');
+@import url('base/typography.css');
+@import url('base/reset.css');
+
+
+@import url('components/footer.css');
+@import url('components/header.css');
+@import url('components/nav.css');
+
+@import url('sections/1.css');
+@import url('sections/2.css');
